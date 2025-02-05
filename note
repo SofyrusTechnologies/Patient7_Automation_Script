@@ -1,0 +1,17 @@
+python run command = pytest dashboard_test.py
+pytest dashboard_test.py -v 
+report command - pytest tests/test_dashboard.py --html=report.html -s -v
+
+pytest dashboard_test.py -v -s 
+
+-v: Show verbose output (which test is running)
+-s: Show print statements during test execution
+
+Delete session storage command = del cookies.json    ,   del storage.json
+
+
+Allure report = 
+pytest --alluredir=allure-results
+allure serve allure-results
+
+

@@ -1,0 +1,34 @@
+# Ignore virtual environment
+venv/
+.env
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pyc
+.DS_Store
+
+# Ignore test reports & logs
+*.log
+*.out
+*.err
+*.csv
+*.json
+allure-results/
+report.html
+*.xml
+
+# Ignore VS Code settings
+.vscode/
+.history/
+
+# Ignore Screenshots & Videos
+screenshots/
+videos/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore Selenium drivers (if downloaded manually)
+chromedriver
+geckodriver

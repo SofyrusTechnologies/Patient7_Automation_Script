@@ -52,3 +52,7 @@ jobs:
           github_token: ${{ secrets.PAT_TOKEN }}
           publish_dir: ./allure-report
           force_orphan: true
+
+      - name: Display Deployment URL
+        run: 
+          echo "::notice::Allure Report will be available at https://${{ github.Haseen857 }}.github.io/${{ github.event.repository.Patient7_Automation_Script }}"

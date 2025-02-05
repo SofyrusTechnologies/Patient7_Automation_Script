@@ -45,6 +45,9 @@ jobs:
       - name: Generate Allure Report
         run: |
           allure generate allure-results --clean -o allure-report
+      
+      - name: Install Netlify CLI
+        run: npm install -g netlify-cli
 
       - name: Deploy to Netlify
         uses: netlify/actions/cli@master
@@ -53,6 +56,7 @@ jobs:
         env:
             NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
             NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+            run: netlify deploy --dir=allure-report --prod
         
       
   

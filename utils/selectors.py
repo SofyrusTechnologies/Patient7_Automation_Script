@@ -19,3 +19,14 @@ class AddPatientSelectors:
     OPEN_PATIENT_DETAILS = "/html/body/div[1]/div/div/main/div/div/div/div/div/div[1]/div[1]/div/div/div[2]/div[1]/div[1]/h2"
     
     
+class AddMedicationSelector:
+    MRN_NO ="/html/body/div[1]/div/div/main/div/div/div/div/div/div[2]/div/div[2]/div/div[1]/button[1]/span"
+    MEDICATION_NAME = "/html/body/div[1]/div/div/main/div/div/div/div/div/div[2]/div/div[2]/div/div[2]/div/div[1]/div/div/div/div/div[1]/div/div/form/div/div[1]/div/div/input"
+    DOSAGE = "/html/body/div[1]/div/div/main/div/div/div/div/div/div[2]/div/div[2]/div/div[2]/div/div[1]/div/div/div/div/div[1]/div/div/form/div/div[2]/div/input"
+    FREQUENCY = "/html/body/div[1]/div/div/main/div/div/div/div/div/div[2]/div/div[2]/div/div[2]/div/div[1]/div/div/div/div/div[1]/div/div/form/div/div[4]/div/div/input"
+    ADD_MEDICATION = "/html/body/div[1]/div/div/main/div/div/div/div/div/div[2]/div/div[2]/div/div[2]/div/div[1]/div/div/div/div/div[1]/div/div/form/div/div[5]/button[1]"
+    # MEDICATION_ELEMENT = "/html/body/div[1]/div/div/main/div/div[2]/div[1]/div/div/table/tbody/tr[1]"
+    # MEDICATION_DETAILS = "/html/body/div[1]/div/div/main/div/div[2]/div[1]/div/div/table/tbody/tr[1]/td[9]/div/button[2]"
+    # OPEN_MEDICATION_DETAILS = "/html/body/div[1]/div/div/main/div/div/div/div/div/div[1]/div[1]/div/div/div[2]/div[1]/div[1]/h2"
+    
+    

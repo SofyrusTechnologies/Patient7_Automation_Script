@@ -6,7 +6,7 @@ from utils.selectors import DashboardSelectors
 class DashboardPage:
     def __init__(self, driver):
         self.driver = driver
-        self.dashboard_url = "https://tenderclinic.pt7.io/branch/cf048f64-0c80-4071-aaa2-8fa960ee6d9b/dashboard"
+        self.dashboard_url = "https://lifetreeclinic.patient7.co/branch/f88f5e98-ff35-4499-9dd9-7cae9f4aa137/dashboard"
 
     def load_dashboard(self):
         self.driver.get(self.dashboard_url)

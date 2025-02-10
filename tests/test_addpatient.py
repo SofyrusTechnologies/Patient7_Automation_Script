@@ -15,7 +15,7 @@ class TestDashboard:
         actual_value = dashboard_page.get_welcome_message()
         expected_value = "Welcome back"
         assert actual_value == expected_value, f"Assertion failed: Expected '{expected_value}', but got '{actual_value}'"
-        print("✅ Assertion Passed: Welcome back message verified")
+        print(" Assertion Passed: Welcome back message verified")
 
         # Navigate to Patient List
         dashboard_page.navigate_to_patient_list()
@@ -25,13 +25,13 @@ class TestDashboard:
         actual_value = patient_list_page.verify_patient_list_loaded()
         expected_value = "Color Tag"
         assert actual_value == expected_value, f"Assertion failed: Expected '{expected_value}', but got '{actual_value}'"
-        print("✅ Assertion Passed: Patient List loaded successfully")
+        print(" Assertion Passed: Patient List loaded successfully")
 
         # Add Patient
         patient_list_page.click_add_patient()
         add_patient_page = AddPatientPage(authenticated_browser)
         test_data = generate_test_data()
         add_patient_page.fill_patient_form(test_data)
-        print(f"✅ Patient {test_data['first_name']} {test_data['last_name']} added successfully!")
+        print(f" Patient {test_data['first_name']} {test_data['last_name']} added successfully!")
 
         time.sleep(3)  # Allow time for form submission

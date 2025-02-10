@@ -101,7 +101,7 @@ def logged_in_browser(browser):
     """Perform login and handle branch selection"""
     try:
         # Navigate to login page
-        browser.get("https://tenderclinic.pt7.io/auth/login")
+        browser.get("https://lifetreeclinic.patient7.co/auth/login")
         print("✅ Navigated to login page")
         
         # Login steps with explicit waits and error handling
@@ -109,7 +109,7 @@ def logged_in_browser(browser):
             EC.presence_of_element_located((By.XPATH, 
                 "/html/body/div[1]/div[2]/div[2]/div/div/form/div[1]/div/input"))
         )
-        email_field.send_keys("tinki@yopmail.com")
+        email_field.send_keys("haseendoc1@yopmail.com")
         print("✅ Email entered")
 
         password_field = WebDriverWait(browser, 10).until(
@@ -152,10 +152,10 @@ def test_login_successful(logged_in_browser):
     try:
         # Wait for URL to change and verify
         WebDriverWait(logged_in_browser, 10).until(
-            lambda driver: driver.current_url != "https://tenderclinic.pt7.io/auth/login"
+            lambda driver: driver.current_url != "https://lifetreeclinic.patient7.co/auth/login"
         )
         
-        assert logged_in_browser.current_url != "https://tenderclinic.pt7.io/auth/login"
+        assert logged_in_browser.current_url != "https://lifetreeclinic.patient7.co/auth/login"
         print("✅ Login test passed")
         
     except Exception as e:

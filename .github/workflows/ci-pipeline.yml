@@ -51,6 +51,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v3
         with:
+          github_token: ${{ secrets.PAT_TOKEN }}
           name: Allure Report
           path: allure-report
 

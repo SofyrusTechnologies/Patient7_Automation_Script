@@ -105,11 +105,11 @@ class AddUserPage:
         #     )
 
         # Click verification link (modify the XPATH based on actual email content)
-        # time.sleep(3)
-        # verification_link = WebDriverWait(self.driver, 10).until(
-        #         EC.presence_of_element_located((By.XPATH, "/html/body/main/div/div/div/div[2]/span/a"))
-        #     )
-        # verification_link.click()
+        time.sleep(3)
+        verification_link = WebDriverWait(self.driver, 10).until(
+                EC.presence_of_element_located((By.XPATH, "/html/body/main/div/div/div/div[2]/span/a"))
+            )
+        verification_link.click()
             
         # print("Verification email clicked successfully.")
 

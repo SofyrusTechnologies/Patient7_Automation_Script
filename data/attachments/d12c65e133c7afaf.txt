@@ -1,0 +1,7 @@
+✅ ChromeDriver successfully initialized!
+✅ Navigated to login page
+✅ Email entered
+✅ Password entered
+✅ Login button clicked
+✅ Branch selected
+✅ Login test passed

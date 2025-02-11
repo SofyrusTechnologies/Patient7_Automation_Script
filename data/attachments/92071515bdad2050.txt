@@ -1,0 +1,18 @@
+✅ ChromeDriver successfully initialized!
+Performing new login...
+Session data saved successfully
+✓ Overview page loaded successfully
+
+Adding medication 1 of 2
+medication_name:  news
+dosage:  184
+frequency:  Twice a day
+Added Medication: news, Dosage: 184mg, Frequency: Twice a day
+
+Adding medication 2 of 2
+medication_name:  follow
+dosage:  459
+frequency:  Once a day
+Added Medication: follow, Dosage: 459mg, Frequency: Once a day
+
+✓ Successfully added and verified 2 medications

@@ -30,3 +30,25 @@ class AddMedicationSelector:
     # OPEN_MEDICATION_DETAILS = "/html/body/div[1]/div/div/main/div/div/div/div/div/div[1]/div[1]/div/div/div[2]/div[1]/div[1]/h2"
     
     
+    
+class AddUserSelectors:
+    GetUserInformation = "/html/body/div[1]/div/div/main/div/div/div[2]/div/div[7]/div/div[2]/div/div[1]/div/div/table/thead/tr/th[4]"
+    Click_AddUser = "/html/body/div[1]/div/div/main/div/div/div[2]/div/div[1]/div[2]/button"
+    FIRST_NAME = "/html/body/div[1]/div/div/main/div/div/div[2]/div[2]/div/form/div[3]/div[2]/div/div[1]/div[2]/div/div[1]/input"
+    LAST_NAME = "/html/body/div[1]/div/div/main/div/div/div[2]/div[2]/div/form/div[3]/div[2]/div/div[2]/div[1]/input"
+    ROLE = "/html/body/div[1]/div/div/main/div/div/div[2]/div[2]/div/form/div[3]/div[2]/div/div[4]/div/div/input"
+    SELECT_ROLE = "/html/body/div[1]/div/div/main/div/div/div[2]/div[2]/div/form/div[3]/div[2]/div/div[4]/div[2]/div/div/div/div/div/div[2]"
+    SPEC = "/html/body/div[1]/div/div/main/div/div/div[2]/div[2]/div/form/div[3]/div[2]/div/div[5]/div[1]/div/input"
+    SELECT_SPEC = "/html/body/div[1]/div/div/main/div/div/div[2]/div[2]/div/form/div[3]/div[2]/div/div[5]/div[2]/div/div/div/div/div/div[1]"
+    ADMIN_PRIV = "/html/body/div[1]/div/div/main/div/div/div[2]/div[2]/div/form/div[3]/div[2]/div/div[9]/div[2]"
+    EMAIL = "/html/body/div[1]/div/div/main/div/div/div[2]/div[2]/div/form/div[3]/div[2]/div/div[7]/div[1]/input"
+    SAVE_BUTTON = "/html/body/div[1]/div/div/main/div/div/div[2]/div[2]/div/form/div[9]/button[2]"
+    YOPMAIL = "/html/body/div/div[2]/main/div[3]/div/div[1]/div[2]/div/div/form/div/div[1]"
+    # ADDRESS = "/html/body/div[1]/div/div/main/div/div/div/div[2]/div/form/div[1]/div[2]/div[3]/div[1]/div/div/input"
+    # PATIENT_ELEMENT = "/html/body/div[1]/div/div/nav/div[1]/div/button[3]"
+    # PATIENT_COLORCODE = "/html/body/div[1]/div/div/main/div/div[2]/div[1]/div/div/table/thead/tr/th[1]/div"
+    # NEW_PATIENT = "/html/body/div[1]/div/div/main/div/div[2]/div[1]/div/div/table/tbody/tr[1]"
+    # PATIENT_DETAILS = "/html/body/div[1]/div/div/main/div/div[2]/div[1]/div/div/table/tbody/tr[1]/td[9]/div/button[1]"
+    # OPEN_PATIENT_DETAILS = "/html/body/div[1]/div/div/main/div/div/div/div/div/div[1]/div[1]/div/div/div[2]/div[1]/div[1]/h2"
+    
+    

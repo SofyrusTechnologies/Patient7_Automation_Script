@@ -1,0 +1,18 @@
+✅ ChromeDriver successfully initialized!
+Performing new login...
+Session data saved successfully
+✓ Overview page loaded successfully
+
+Adding medication 1 of 2
+medication_name:  this
+dosage:  371
+frequency:  Once a day
+Added Medication: this, Dosage: 371mg, Frequency: Once a day
+
+Adding medication 2 of 2
+medication_name:  sing
+dosage:  457
+frequency:  Every 6 hours
+Added Medication: sing, Dosage: 457mg, Frequency: Every 6 hours
+
+✓ Successfully added and verified 2 medications

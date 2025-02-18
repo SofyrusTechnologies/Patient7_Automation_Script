@@ -20,6 +20,10 @@ class AddPatientPage:
         WebDriverWait(self.driver, 10).until(
             EC.presence_of_element_located((By.XPATH, AddPatientSelectors.DOB))
         ).send_keys(patient_data["dob"])
+        
+        WebDriverWait(self.driver, 10).until(
+            EC.presence_of_element_located((By.XPATH, AddPatientSelectors.MOBILE))
+        ).send_keys(patient_data["mobile_no"])
 
         WebDriverWait(self.driver, 10).until(
             EC.presence_of_element_located((By.XPATH, AddPatientSelectors.EMAIL))

@@ -20,5 +20,7 @@ def generate_test_data():
         "address": fake.address(),
         "city": fake.city(),
         "state": fake.state(),
-        "zip_code": fake.zipcode()
+        "zip_code": fake.zipcode(),
+        "mobile_no": "+1" + str(random.randint(1000000000, 9999999999))  
+        
     }

@@ -32,7 +32,7 @@ def load_session(driver):
             storage = json.load(file)
         
         # Navigate to the site first
-        driver.get("https://lifetreeclinic.patient7.co/")
+        driver.get("https://compassioncarehealthclinic.patient7.app/")
         
         # Add cookies
         for cookie in cookies:
@@ -59,12 +59,12 @@ def load_session(driver):
 def perform_login(driver):
     """Perform the login process"""
     print("Performing new login...")
-    driver.get("https://lifetreeclinic.patient7.co/auth/login")
+    driver.get("https://compassioncarehealthclinic.patient7.app/")
     
     email_field = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div[2]/div[2]/div/div/form/div[1]/div/input"))
     )
-    email_field.send_keys("haseendoc1@yopmail.com")
+    email_field.send_keys("haseen512@yopmail.com")
 
     password_field = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div[2]/div[2]/div/div/form/div[2]/div/div[1]/input"))

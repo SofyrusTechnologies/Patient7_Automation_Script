@@ -9,7 +9,9 @@ class PatientListSelectors:
 class AddPatientSelectors:
     FIRST_NAME = "/html/body/div[1]/div/div/main/div/div/div/div[2]/div/form/div[1]/div[2]/div[1]/div[1]/div/input"
     LAST_NAME = "/html/body/div[1]/div/div/main/div/div/div/div[2]/div/form/div[1]/div[2]/div[1]/div[3]/div/input"
+    
     DOB = "/html/body/div[1]/div/div/main/div/div/div/div[2]/div/form/div[1]/div[2]/div[1]/div[6]/div/input"
+    MOBILE = "/html/body/div[1]/div/div/main/div/div/div/div[2]/div/form/div[1]/div[2]/div[1]/div[11]/div/input"
     EMAIL = "/html/body/div[1]/div/div/main/div/div/div/div[2]/div/form/div[1]/div[2]/div[1]/div[12]/div/input"
     ADDRESS = "/html/body/div[1]/div/div/main/div/div/div/div[2]/div/form/div[1]/div[2]/div[3]/div[1]/div/div/input"
     PATIENT_ELEMENT = "/html/body/div[1]/div/div/nav/div[1]/div/button[3]"

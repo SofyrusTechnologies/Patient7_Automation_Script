@@ -15,3 +15,4 @@ pytest --alluredir=allure-results
 allure serve allure-results
 
 
+Recorder command - python scripts/record_test.py  

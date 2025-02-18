@@ -16,7 +16,7 @@ class DashboardPage:
 
     def open_dashboard(self):
         """Navigate to the dashboard page."""
-        self.driver.get("https://lifetreeclinic.patient7.co/branch/f88f5e98-ff35-4499-9dd9-7cae9f4aa137/dashboard")
+        self.driver.get("https://compassioncarehealthclinic.patient7.app/branch/6d9b345f-3f82-41fa-a7c9-881f343c7103/dashboard")
 
     def get_text(self, locator):
         """Get text from a given element."""

@@ -1,0 +1,7 @@
+ Assertion Passed: Welcome back message verified
+ Assertion Passed: Patient List loaded successfully
+Assertion Passed: Color Tag after submitting patient form
+Actual Value patient list Andrew Williams
+Expected Value patient list Andrew Williams
+Assertion Passed: Patient details opened successfully
+ Patient Andrew Williams added successfully!

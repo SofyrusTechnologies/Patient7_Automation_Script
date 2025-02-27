@@ -1,0 +1,9 @@
+✅ ChromeDriver successfully initialized!
+Performing new login...
+Session data saved successfully
+✓ Overview page loaded successfully
+
+Adding medication 1 of 2
+medication_name:  economic
+dosage:  492
+frequency:  Once a day

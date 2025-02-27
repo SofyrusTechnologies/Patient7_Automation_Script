@@ -46,11 +46,16 @@ class AddUserSelectors:
     EMAIL = "/html/body/div[1]/div/div/main/div/div/div[2]/div[2]/div/form/div[3]/div[2]/div/div[7]/div[1]/input"
     SAVE_BUTTON = "/html/body/div[1]/div/div/main/div/div/div[2]/div[2]/div/form/div[9]/button[2]"
     YOPMAIL = "/html/body/div/div[2]/main/div[3]/div/div[1]/div[2]/div/div/form/div/div[1]"
-    # ADDRESS = "/html/body/div[1]/div/div/main/div/div/div/div[2]/div/form/div[1]/div[2]/div[3]/div[1]/div/div/input"
-    # PATIENT_ELEMENT = "/html/body/div[1]/div/div/nav/div[1]/div/button[3]"
-    # PATIENT_COLORCODE = "/html/body/div[1]/div/div/main/div/div[2]/div[1]/div/div/table/thead/tr/th[1]/div"
-    # NEW_PATIENT = "/html/body/div[1]/div/div/main/div/div[2]/div[1]/div/div/table/tbody/tr[1]"
-    # PATIENT_DETAILS = "/html/body/div[1]/div/div/main/div/div[2]/div[1]/div/div/table/tbody/tr[1]/td[9]/div/button[1]"
-    # OPEN_PATIENT_DETAILS = "/html/body/div[1]/div/div/main/div/div/div/div/div/div[1]/div[1]/div/div/div[2]/div[1]/div[1]/h2"
+    
+class AddTaskSelectors:
+    ADDTASKBUTTON = "/html/body/div[1]/div/div/main/div/div/div[1]/div[3]/button"
+    TASKTITLE = "/html/body/div[4]/div/div/div/div[2]/section/div/div/div/div[1]/div/div[2]/form/div[1]/div[1]/div/input"
+    AASIGNROLE = "/html/body/div[4]/div/div/div/div[2]/section/div/div/div/div[1]/div/div[2]/form/div[1]/div[3]/div[1]/div"
+    SELECTROLE = "/html/body/div[4]/div/div/div/div[2]/section/div/div/div/div[1]/div/div[2]/form/div[1]/div[3]/div[2]/div/div/div[1]/div/div/div[2]"
+    TASKTYPE = "/html/body/div[4]/div/div/div/div[2]/section/div/div/div/div[1]/div/div[2]/form/div[3]/div[2]/div[1]/div/div[1]/input"
+    ASSIGNTASK = "/html/body/div[4]/div/div/div/div[2]/section/div/div/div/div[1]/div/div[2]/form/div[4]/button[2]"
+    ASSERT = "/html/body/div[1]/div/div/main/div/div/div[2]/div[2]/div/div/div[1]/div/div/table/tbody/tr[1]/td[2]"
+    
+    
     
     

@@ -65,6 +65,12 @@ class AddUserPage:
         self.driver.switch_to.window(self.driver.window_handles[1])
         self.driver.get(self.yopmail_url)
         
+          # Block Ads in Yopmail by executing JavaScript
+        self.driver.execute_script("""
+            var ads = document.querySelectorAll('iframe, .ad, .adsbygoogle, .ad-container');
+            ads.forEach(ad => ad.remove());
+        """)
+        
         # Enter the Yopmail email
         yopmail_email = patient_data["email"]
         print("yopmail_email", yopmail_email)
@@ -115,25 +121,9 @@ class AddUserPage:
             EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div[2]/div[2]/div/div/form/div/button/div/span"))
         ).click()
         
-        # Switch back to original tab
-    #     self.driver.switch_to.window(original_window)
-        
-    # def verify_user_added(self, patient_data):
-        # Wait for the user list to refresh
+  
         time.sleep(1)
         
         print("User added successfully!")
-        
-        # Look for the newly added user in the list
-        # user_xpath = f"/html/body/div[1]/div/div/main/div/div/div[2]/div/div[7]/div/div[2]/div/div[1]/div/div/table/tbody/tr[1], '{patient_data['first_name']} {patient_data['last_name']}')]"
-        # try:
-        #     WebDriverWait(self.driver, 10).until(
-        #         EC.presence_of_element_located((By.XPATH, user_xpath))
-        #     )
-        #     print(f"User {patient_data['first_name']}  {patient_data['last_name']} was successfully added!")
-        #     return True
-        # except:
-        #     print(f"Failed to find user {patient_data['first_name']} {patient_data['last_name']} in the list!")
-        #     return False
-        
+     
         
